@@ -1,0 +1,27 @@
+# Конфиденциальные файлы
+.env
+*.secret
+config.ini
+credentials.json
+send_email.php  # Или вынесите SMTP-данные в .env
+
+# Файлы с логинами/паролями
+login_attempts.log
+
+# Зависимости и системные файлы
+/vendor/
+/node_modules/
+composer.lock
+
+# IDE
+.idea/
+.vscode/
+
+# Локальные настройки
+*.local.php
+/database/db.php 
+
+# Кеш и логи
+__pycache__/
+*.log
+*.cache
